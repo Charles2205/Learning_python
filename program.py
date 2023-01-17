@@ -21,7 +21,12 @@
 # Count 
 
 # length 
-first_name= input('Enter your first name: ')
-last_name= input('Enter your last name: ')
-print (len(first_name.strip()))
-print (len(last_name.strip()))
+# first_name= input('Enter your first name: ')
+# last_name= input('Enter your last name: ')
+# print (len(first_name.strip()))
+# print (len(last_name.strip()))
+
+f_name=input('Enter your first name: ')
+l_name=input('Enter your last name: ')
+full_name=f_name+' '+l_name
+print(f'Your name is {full_name}')
