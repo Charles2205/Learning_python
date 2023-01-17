@@ -1,0 +1,4 @@
+# assignment
+user_input = input("Enter an integer: ")
+user_int = int(user_input)
+print(user_int)
