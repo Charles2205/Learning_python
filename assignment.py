@@ -47,3 +47,51 @@
 
 # else:
 #     print('password not accepted') 
+
+
+
+
+
+
+
+# Today's Assignmnent
+
+# user_number= int(input("enter your number:"))
+# n=1
+# while n>=1:
+#     n=n*1
+#     n=n-1
+#     print(n)
+
+user_number = int(input("please enter whole number value : "))
+total = 0
+number = 1
+while number <= user_number:
+     if (number % 2 == 0):
+        print(number)
+        total = total + number
+     number += 1
+
+print(f"the sum of even numbers = {total}")
+
+
+
+
+# n=int(input())
+# sum=0
+# i=1
+# while i<=n:
+#       if(i%2==0):
+#              sum+=i
+
+factorial=1
+n=1
+while True:
+    num=int(input("Enter number: "))
+    if num<=0:
+        print("Thank you!")
+        break
+    while n<num:
+        n+=1
+        factorial*=n
+    print(factorial)
