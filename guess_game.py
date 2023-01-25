@@ -17,8 +17,8 @@ while True:
         print('Too high.Try again')
     elif user_input<gen_number:
         print('Too low.Try again')
-    if user_guess_count == 5:
-        print ('game over')
+    if user_guess_count == 4:
+        print ('Reset ')
         break
     user_guess_count+= 1 
 print(f'the number of wrong guesses is {user_guess_count}')
