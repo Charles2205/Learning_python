@@ -31,12 +31,12 @@
 # print(max(num))
 
 # # Create a list of 10 random numbers and use a for loop to print the square of each number
-import random
-number =[]
+# import random
+# number =[]
 
-for i in range(0,10):
-   number.append(random.randint(1,10)**2)
-   print(number[i])
+# for i in range(0,10):
+#    number.append(random.randint(1,10)**2)
+#    print(number[i])
 
 
 # List helper methods
@@ -45,13 +45,13 @@ for i in range(0,10):
 # clear     insert
 # copy      pop
 
-numbers = [2, 6, 9]
-numbers.count(0)
-print(numbers)
+# numbers = [2, 6, 9]
+# numbers.count(0)
+# print(numbers)
 # List Slicing
 # It helps you get portion of a list
-numbers=[3,4,5,7,1,8]
-print(numbers[-1:0])
+# numbers=[3,4,5,7,1,8]
+# print(numbers[-1:0])
 # Tuple
 # Tuple allows you to store items  with different data types
 # Tuple are organized
@@ -61,4 +61,12 @@ print(numbers[-1:0])
 
 # Sets
 # Sets are used to store values and different data types
+#add
 
+
+
+
+set_num={1,3,5,4}
+set1={1,3,7}
+# print(set1.union(set_num))
+# print(set_num.difference(set1))
