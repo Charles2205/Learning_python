@@ -70,3 +70,4 @@ set_num={1,3,5,4}
 set1={1,3,7}
 # print(set1.union(set_num))
 # print(set_num.difference(set1))
+print(set.difference_update(set1))
