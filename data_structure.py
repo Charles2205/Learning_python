@@ -66,8 +66,14 @@
 
 
 
-set_num={1,3,5,4}
-set1={1,3,7}
-# print(set1.union(set_num))
-# print(set_num.difference(set1))
-print(set.difference_update(set1))
+# set1={1,3,5,4}
+# set2={1,3,7}
+# # print(set1.union(set1))
+# # print(set1.difference(set1))
+# # set1.difference_update(set2)
+
+# print(set1)
+
+
+# dictionary
+# KeyValuePair

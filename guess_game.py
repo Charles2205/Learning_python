@@ -17,9 +17,9 @@ while True:
         print('Too high.Try again')
     elif user_input<gen_number:
         print('Too low.Try again')
-    if user_guess_count == 1234:
-        print ('Reset ')
-        
+    if user_guess_count == 4:
+        print ('Game Over ')
+        break
     user_guess_count+= 1
     if user_input == gen_number:
         print("Do you want to continue ? Type yes(1) or No(2)")
