@@ -22,7 +22,7 @@ while True:
         break
      # condition to check if user typed false for the program to run
     elif user_response.capitalize() == "False":
-        user_data.append(input('Enter your data: '))
+        user_data.append(input('Enter your todo heres: '))
 
         
 
