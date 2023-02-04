@@ -32,3 +32,5 @@ def update_todo():
     container.insert((len(container)),input('Enter your new todo to update the list: '))
     update_todo=container
     print(update_todo)
+
+update_todo()
