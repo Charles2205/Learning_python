@@ -12,14 +12,12 @@
 ''' docstring
 '''
 # instructions
-def sums():
+def sums(x,y=0):
     """
     This function helps user to add two numbers and display the results
     """
-    x=2
-    y=3
-    results =x + y
+    results = x + y
     return results
 
-    
-    
+a=sums(y=1)
+print(a)
