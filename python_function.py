@@ -26,23 +26,30 @@
 
 # Assignment
 # Create a function that takes a list of numbers as argument and return the sum of those numbers
-def add(*nums):
-    s=0
-    while (i<len(nums)):
-        s=s+nums[i]
-        i+=1
-    return s
-add(1,5,2,1,12,31,41)
+# def add(*nums):
+#     s=0
+#     while (i<len(nums)):
+#         s+=nums[i]
+#         i+=1
+#     return s
+# add(1,5,2,1,12,31,41)
 
 # Create a function that takes a string as an argument and returns a number of vowels in the string
-# def strings(alphabet):
-#     if alphabet in ['a','e','i','o','u']:
-#         print("vowel")
-#         for alphabet in alphabet:
-#             print(alphabet)
-#     print(alphabet)
+def count_vowels(string):
+    total_vowels = 0
+    for char in count_vowels:
+        if char in ['a','e','i','o','u']:
+            total_vowels=+1
+    print(total_vowels)
 
-# strings('a')
 
 # Create a function that takes in two strings as  an argument and returns a strings 
-# that contains a character that are common to both string 
+# that contains a character that are common to both string.
+
+def common_char(inp_1,inp_2):
+    inp_1=set(inp_1)
+    inp_2 =set(inp_2)
+    return  inp_1.intersection(inp_2)
+
+results=common_char('Charles','Appiah')
+print(results)
