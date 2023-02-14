@@ -1,4 +1,6 @@
 user_data=[]
+import todo_functions
+
 print('Welcome to our Todo-App')
 print('1.Add To-do \n' '2.View all todos')
 user_action = input(('Enter a number from the menu list: '))

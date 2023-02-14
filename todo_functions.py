@@ -24,7 +24,7 @@ def delete_list():
         print(f'{data} is the remaining list')
         user_deleted=input('Do you want to view deleted todo? Yes or No ')
         if user_deleted == 'Yes':
-            print(F'{user_input}')
+            print(f'{user_input}')
 
 
 # # Function to update list in a today list
